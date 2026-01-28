@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model checkpoints & outputs (large files)
+checkpoints/
+output/
+*.pt
+*.pth
+*.torch
+
+# Dataset (large files)
+Kvasir-SEG/
+kvasir-seg/
+kvasir_seg/
+kvasir-seg.zip
+data/images/
+data/masks/
+
+# Test images
+test_images/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
