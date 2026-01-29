@@ -1,0 +1,31 @@
+# SAM2 Fine-tuning Requirements
+# Python 3.10+ recommended
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+
+# SAM2 official package
+# For Apple Silicon (M1/M2/M3/M4)
+# torch will use MPS (Metal Performance Shaders) backend
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Jupyter support (optional but recommended for beginners)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# SAM2 from Meta (install separately - see instructions)
+# pip install git+https://github.com/facebookresearch/sam2.git
